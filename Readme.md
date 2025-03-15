@@ -32,7 +32,7 @@ Upload the artifacts and source to your Github repository and include a referenc
 - **Frontend:** React + Vite SPA for user interaction.
 - **Backend Services:**
   - Product Management Service (FastAPI) for CRUD operations.
-  - Uploader Service to handle CSV uploads.
+  - Uploader Service to handle CSV uploads.(**We can consider this as service to handle any upload related tasks.Can be reused by other**).One alternative offload it with aws s3.we can use presigned urls.
   - Worker Service for asynchronous processing via RabbitMQ.
 - **Database:** Considering we will will upload and show all the product information- Any sql database seems good choice.We have incorporate proxy servers to manage connection polling. PostgreSQL with PgBouncer for connection pooling.
 - **Message Queue:** RabbitMQ/AWS message queue to manage  tasks.
