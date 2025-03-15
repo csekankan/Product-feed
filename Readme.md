@@ -43,7 +43,7 @@ Upload the artifacts and source to your Github repository and include a referenc
 - **Backend**:
     - **Microservices Approach:** Separation of concerns between product management, upload handling, and task processing.
     - **Batch Insert Strategy:** To efficiently handle large CSV uploads.
-    - **Message Queue (RabbitMQ/AWs message ):** Ensures non-blocking request processing.
+    - **Message Queue (RabbitMQ/AWS message Queue ):** Ensures non-blocking request processing.
     - **Connection Pooling (PgBouncer):** Prevents database overloading.
     - **Storage:** Object staorage like (s3)
 - **Frontend**:
