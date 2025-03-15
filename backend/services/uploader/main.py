@@ -4,7 +4,7 @@ from app.routes import router
 app = FastAPI(title="File Upload Service")
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="Auth Service")
+app = FastAPI(title="Uploader Service")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],  

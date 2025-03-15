@@ -21,7 +21,7 @@ Expected Deliverables:
 Upload the artifacts and source to your Github repository and include a reference to it as part of the response.
 
 ## 📌 Architecture Diagram
-![Architecture](diagrams/architecture_v4.png)
+![Architecture](diagrams/architecture_v5.png)
 ![Architecture](diagrams/diagram_with_AWS.png)
 ## 📖 Questions & Answers
 
@@ -46,7 +46,7 @@ Upload the artifacts and source to your Github repository and include a referenc
     - **Message Queue (RabbitMQ/AWs message ):** Ensures non-blocking request processing.
     - **Connection Pooling (PgBouncer):** Prevents database overloading.
     - **Storage:** Object staorage like (s3)
-- **Frontend **:
+- **Frontend**:
     - As the list could grould we are using **react-virtualized** to make render efficiently
     - We have use polling to get task status from user.Here in the implementation predefined polling every 1 second max of 10 time.This can be changed or optimized based on file size.
 
@@ -67,14 +67,13 @@ Upload the artifacts and source to your Github repository and include a referenc
 - It is fine for user to wait for status of the file upload. As for large file it could take time for upload.
 - Frontend will be used for *read heavy operation  write heavy*
 
+##### 6.Api Design
+   ![Upload service](diagrams/api-file.png)
+   ![Upload service](diagrams/api-product.png)
 
-##### 6. Source of Implemention
- - **Used chatGPT for following:**
-    -  Boilerplate code generation (FastAPI, React, Docker setup, etc.)
-    - Writing documentation and configuration scripts
+          
 
-
-#####  5. Scope to improve
+#####  7. Scope to improve
 - Use AWS self managed  services for this development .It handle lot of burden of manageing queue,handling edge cases.And Gurantee availability.
 - can use AWS lambda instead of running in servers (EC2)
 - Use read replica of database for most of the read queries. This will be very efficient when lot of file upload processed.

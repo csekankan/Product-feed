@@ -5,7 +5,7 @@ from app.router.tasks  import task_router
 from app.router.products  import product_router
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="Auth Service")
+app = FastAPI(title="Product Management Service")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],  

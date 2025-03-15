@@ -31,22 +31,22 @@ def login(user: UserCreate, db: Session = Depends(get_db)):
     access_token = create_access_token({"sub": db_user.email}, expires_delta=timedelta(minutes=30))
     return {"access_token": access_token, "token_type": "bearer"}
 
-@auth_router.get("/verify")
-def verify(token: str, db: Session = Depends(get_db)):
-    """
-    Verify token and return user info.
-    """
-    try:
-        payload =verify_access_token(token)
-        email = payload.get("sub")
-        if email is None:
-            raise HTTPException(status_code=401, detail="Invalid token")
+# @auth_router.get("/verify")
+# def verify(token: str, db: Session = Depends(get_db)):
+#     """
+#     Verify token and return user info.
+#     """
+#     try:
+#         payload =verify_access_token(token)
+#         email = payload.get("sub")
+#         if email is None:
+#             raise HTTPException(status_code=401, detail="Invalid token")
 
-        user = db.query(User).filter(User.email == email).first()
-        if user is None:
-            raise HTTPException(status_code=401, detail="User not found")
+#         user = db.query(User).filter(User.email == email).first()
+#         if user is None:
+#             raise HTTPException(status_code=401, detail="User not found")
 
-        return {"email": user.email}
+#         return {"email": user.email}
 
-    except JWTError:
-        raise HTTPException(status_code=401, detail="Token verification failed")
+#     except JWTError:
+#         raise HTTPException(status_code=401, detail="Token verification failed")
