@@ -53,7 +53,7 @@ Upload the artifacts and source to your Github repository and include a referenc
 #####  4. Non-Functional Requirements & Considerations
 - **Scalability:**
     -  Message queue allows task distribution across multiple worker instances.Can be configured to handle failure cases.
-    - The microservices are **STATELESS** then can be scaled horizontaly.This approach make the backend handle data from 3000 stores
+    - The microservices are **State less** then can be scaled horizontaly.This approach make the backend handle data from 3000 stores
     - we have separate services to handle specific function.Uploader and worker process can be scalled according to our load
     - Polling :One important thing after upoload will be knowing status.We have decided to go with **Polling**(Long or Short).Major reson to avoid Websocket or Server sent event is we don't need real time status .And managing connection very difficult if system scale.
 - **Performance:** Batch insert reduces database write overhead.
