@@ -66,9 +66,9 @@ Upload the artifacts and source to your Github repository and include a referenc
 - Users will have appropriate authentication and authorization mechanisms.
 
 ##### 6. Source of Implemention
-Used chatGPT for following:
--  Boilerplate code generation (FastAPI, React, Docker setup, etc.)
-- Writing documentation and configuration scripts
+ - **Used chatGPT for following:**
+    -  Boilerplate code generation (FastAPI, React, Docker setup, etc.)
+    - Writing documentation and configuration scripts
 
 
 #####  5. Scope to improve
