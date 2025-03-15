@@ -82,7 +82,7 @@ Upload the artifacts and source to your Github repository and include a referenc
 
 # 🚀 Project Setup & Usage
 ## demo
-![Watch the video](https://drive.google.com/file/d/1-j26cL_GjMiD_OYl9FcFqIJfK8I8l80V/view?usp=sharing)
+![Watch the video](https://drive.google.com/file/d/11V6zQn75cRDA6hnW8a8HISYwEW1bcfoI/view?usp=sharing)
 
 ## Prerequisites
 - **Docker** installed on your system
