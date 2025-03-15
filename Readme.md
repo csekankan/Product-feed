@@ -49,16 +49,18 @@ Upload the artifacts and source to your Github repository and include a referenc
 
 #####  4. Non-Functional Requirements & Considerations
 - **Scalability:**
--  Message queue allows task distribution across multiple worker instances.Can be configured to handle failure cases.
-- The microservices are STATELESS then can be scaled horizontaly.This approach make the backend handle data from 3000 stores
-- we have separate services to handle specific function.Uploader and worker process can be scalled according to our load
+    -  Message queue allows task distribution across multiple worker instances.Can be configured to handle failure cases.
+    - The microservices are STATELESS then can be scaled horizontaly.This approach make the backend handle data from 3000 stores
+    - we have separate services to handle specific function.Uploader and worker process can be scalled according to our load
 - **Performance:** Batch insert reduces database write overhead.
+- **availability :**: Can use AWS services for 99.99% availability
 
 
 
 #####  5. Assumptions
-- The CSV format is standardized with Store ID, SKU, Product Name, Price, and Date.
-- The system should handle up to **3000 stores** across multiple countries.
+
+- Assumption is each of the 3000 stores upload the feed once or twice daily.Each store have max 1 or two users (Manager)to access the webisite daily
+- Frontend will be used for leass heavy update.More on viewing data.(read heavy than write heavy)
 - Users will have appropriate authentication and authorization mechanisms.
 
 ##### 6. Source of Implemention
