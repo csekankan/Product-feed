@@ -62,8 +62,9 @@ Upload the artifacts and source to your Github repository and include a referenc
 #####  5. Assumptions
 
 - Assumption is each of the 3000 stores upload the feed once or twice daily.Each store have max 1 or two users (Manager)to access the webisite daily
+- It is fine for user to wait for status of the file upload.As for large file it could take time for upload.
 - Frontend will be used for leass heavy update.More on viewing data.(read heavy than write heavy)
-- Users will have appropriate authentication and authorization mechanisms.
+
 
 ##### 6. Source of Implemention
  - **Used chatGPT for following:**
