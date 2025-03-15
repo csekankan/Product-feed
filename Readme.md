@@ -52,10 +52,11 @@ Upload the artifacts and source to your Github repository and include a referenc
 
 #####  4. Non-Functional Requirements & Considerations
 - **Scalability:**
-    -  Message queue allows task distribution across multiple worker instances.Can be configured to handle failure cases.
-    - The microservices are **State less** they can be scaled horizontaly.This approach make the backend handle data from 3000 stores
-    - we have separate services to handle specific function.Uploader and worker process can be scalled according to our load
-    - Polling :One important thing after upoload will be knowing status.We have decided to go with **Polling**(Long or Short).Major reson to avoid Websocket or Server sent event is we don't need real time status .And managing connection very difficult if system scale.
+    - **Decopupling**- Message queue allows task distribution across multiple worker instances.Can be configured to handle failure cases.
+    - **Microservices** -The microservices are **State less** they can be scaled horizontaly.This approach make the backend handle data from 3000 stores
+    - **Workers**: we have separate services to handle specific function.Uploader and worker process can be scalled according to our load
+    - **Polling** :One important thing after upoload will be knowing status.We have decided to go with **Polling**(Long or Short).Major reson to avoid Websocket or Server sent event is we don't need real time status .And managing connection very difficult if system scale.
+    - **Database**- We can consider having multiple read replicas to improve database performance.If possible can consider location wise sharding based on requirement
 - **Performance:** Batch insert reduces database write overhead.
 - **availability :**: Can use AWS services for 99.99% availability
 
