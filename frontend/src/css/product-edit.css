@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 120px;
+}
+
+.button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.loadMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+
+.loadMore {
+  padding: 8px 12px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}

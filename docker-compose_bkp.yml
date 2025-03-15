@@ -1,0 +1,68 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_USER: product
+      POSTGRES_PASSWORD: product
+      POSTGRES_DB: product
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d 
+      - postgres_data:/var/lib/postgresql/data
+
+  pgbouncer:
+    image: edoburu/pgbouncer
+    container_name: pgbouncer
+    restart: always
+    depends_on:
+      - db  
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: product
+      DB_PASSWORD: product
+    ports:
+      - "6432:6432"
+    volumes:
+      - ./pgbouncer/log:/var/log
+      - ./pgbouncer/pgbouncer.ini:/etc/pgbouncer/pgbouncer.ini
+      - ./pgbouncer/userlist.txt:/etc/pgbouncer/userlist.txt
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    container_name: "rabbitmq"
+    ports:
+      - "15672:15672"  # RabbitMQ management UI (Web UI)
+      - "5672:5672"    # RabbitMQ default port for AMQP
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq  # Persistent data for RabbitMQ
+  workers:
+    build: ./backend/services/worker
+    container_name: workers
+    ports:
+      - "8006:8006"
+    depends_on:
+      - rabbitmq
+      - pgbouncer
+
+    environment:
+      RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672/
+      DIR: /app/s3  
+      DATABASE_URL: postgresql://product:product@pgbouncer:6432/product
+      PRODUCT_API_URL: http://product-management-service:8001
+    restart: always
+    volumes:
+      - ./s3:/app/s3  
+
+volumes:
+  postgres_data:
+  rabbitmq_data:
+    driver: local

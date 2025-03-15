@@ -1,0 +1,60 @@
+2025-03-13 20:29:06.285 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:29:06.295 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:29:06.296 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:29:06.298 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:29:06.304 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:29:07.891 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:29:07.899 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:29:07.901 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:29:07.902 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:29:07.903 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:29:09.159 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:29:09.172 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:29:09.173 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:29:09.178 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:29:09.189 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:29:10.743 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:29:10.750 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:29:10.752 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:29:10.753 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:29:10.756 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:29:12.674 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:29:12.681 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:29:12.682 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:29:12.684 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:29:12.687 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:29:15.328 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:29:15.343 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:29:15.345 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:29:15.346 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:29:15.347 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:29:19.458 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:29:19.475 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:29:19.476 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:29:19.477 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:29:19.478 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:29:27.244 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:29:27.265 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:29:27.267 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:29:27.291 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:29:27.292 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:29:40.989 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:29:41.003 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:29:41.018 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:29:41.021 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:29:41.028 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:30:07.290 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:30:07.294 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:30:07.295 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:30:07.295 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:30:07.296 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:30:59.265 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:30:59.277 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:30:59.280 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:30:59.285 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:30:59.288 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory
+2025-03-13 20:32:00.104 UTC [1] LOG kernel file descriptor limit: 1048576 (hard: 1048576); max_client_conn: 100, max expected fd use: 132
+2025-03-13 20:32:00.114 UTC [1] LOG listening on 0.0.0.0:6432
+2025-03-13 20:32:00.116 UTC [1] LOG listening on [::]:6432
+2025-03-13 20:32:00.117 UTC [1] LOG listening on unix:/tmp/.s.PGSQL.6432
+2025-03-13 20:32:00.118 UTC [1] FATAL could not open pidfile '/var/run/postgresql/pgbouncer.pid': No such file or directory

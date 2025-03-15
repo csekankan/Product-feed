@@ -1,0 +1,2027 @@
+[
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "importPath": "app.config.config",
+        "description": "app.config.config",
+        "isExtraImport": true,
+        "detail": "app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Numeric",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "TIMESTAMP",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "TIMESTAMP",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Numeric",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "TIMESTAMP",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "TIMESTAMP",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "verify_access_token",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_access_token",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.config.db",
+        "description": "app.config.db",
+        "isExtraImport": true,
+        "detail": "app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.db",
+        "description": "app.config.db",
+        "isExtraImport": true,
+        "detail": "app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.db",
+        "description": "app.config.db",
+        "isExtraImport": true,
+        "detail": "app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.db",
+        "description": "app.config.db",
+        "isExtraImport": true,
+        "detail": "app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.config.db",
+        "description": "app.config.db",
+        "isExtraImport": true,
+        "detail": "app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.config.db",
+        "description": "app.config.db",
+        "isExtraImport": true,
+        "detail": "app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.config.db",
+        "description": "app.config.db",
+        "isExtraImport": true,
+        "detail": "app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.config.db",
+        "description": "app.config.db",
+        "isExtraImport": true,
+        "detail": "app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.config.db",
+        "description": "app.config.db",
+        "isExtraImport": true,
+        "detail": "app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.model.user",
+        "description": "app.model.user",
+        "isExtraImport": true,
+        "detail": "app.model.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.model.user",
+        "description": "app.model.user",
+        "isExtraImport": true,
+        "detail": "app.model.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.model.user",
+        "description": "app.model.user",
+        "isExtraImport": true,
+        "detail": "app.model.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.schema.auth ",
+        "description": "app.schema.auth ",
+        "isExtraImport": true,
+        "detail": "app.schema.auth ",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "app.schema.auth ",
+        "description": "app.schema.auth ",
+        "isExtraImport": true,
+        "detail": "app.schema.auth ",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "app.model.products",
+        "description": "app.model.products",
+        "isExtraImport": true,
+        "detail": "app.model.products",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "app.model.products",
+        "description": "app.model.products",
+        "isExtraImport": true,
+        "detail": "app.model.products",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ProductCreate",
+        "importPath": "app.schema.product",
+        "description": "app.schema.product",
+        "isExtraImport": true,
+        "detail": "app.schema.product",
+        "documentation": {}
+    },
+    {
+        "label": "ProductUpdate",
+        "importPath": "app.schema.product",
+        "description": "app.schema.product",
+        "isExtraImport": true,
+        "detail": "app.schema.product",
+        "documentation": {}
+    },
+    {
+        "label": "verify_auth",
+        "importPath": "app.middleware.authentication",
+        "description": "app.middleware.authentication",
+        "isExtraImport": true,
+        "detail": "app.middleware.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "verify_auth",
+        "importPath": "app.middleware.authentication",
+        "description": "app.middleware.authentication",
+        "isExtraImport": true,
+        "detail": "app.middleware.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "importPath": "app.model.tasks",
+        "description": "app.model.tasks",
+        "isExtraImport": true,
+        "detail": "app.model.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "importPath": "app.model.tasks",
+        "description": "app.model.tasks",
+        "isExtraImport": true,
+        "detail": "app.model.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "StatusTypes",
+        "importPath": "app.model.tasks",
+        "description": "app.model.tasks",
+        "isExtraImport": true,
+        "detail": "app.model.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "TaskCreateRequest",
+        "importPath": "app.schema.tasks",
+        "description": "app.schema.tasks",
+        "isExtraImport": true,
+        "detail": "app.schema.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "TaskUpdateRequest",
+        "importPath": "app.schema.tasks",
+        "description": "app.schema.tasks",
+        "isExtraImport": true,
+        "detail": "app.schema.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "auth_router",
+        "importPath": "app.router.authenticate ",
+        "description": "app.router.authenticate ",
+        "isExtraImport": true,
+        "detail": "app.router.authenticate ",
+        "documentation": {}
+    },
+    {
+        "label": "task_router",
+        "importPath": "app.router.tasks ",
+        "description": "app.router.tasks ",
+        "isExtraImport": true,
+        "detail": "app.router.tasks ",
+        "documentation": {}
+    },
+    {
+        "label": "product_router",
+        "importPath": "app.router.products ",
+        "description": "app.router.products ",
+        "isExtraImport": true,
+        "detail": "app.router.products ",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "FileHandler",
+        "importPath": "app.handler.file_handler",
+        "description": "app.handler.file_handler",
+        "isExtraImport": true,
+        "detail": "app.handler.file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "PRODUCT_API_URL",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_DIR",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "RABBITMQ_URL",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "PRODUCT_API_URL",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "RABBITMQ_URL",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "DIR",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "RABBITMQ_URL",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "DIR",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "pika",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pika",
+        "description": "pika",
+        "detail": "pika",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "header_validation",
+        "importPath": "app.validation",
+        "description": "app.validation",
+        "isExtraImport": true,
+        "detail": "app.validation",
+        "documentation": {}
+    },
+    {
+        "label": "get_product_file_handler",
+        "importPath": "app.handler.product_file_handler",
+        "description": "app.handler.product_file_handler",
+        "isExtraImport": true,
+        "detail": "app.handler.product_file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "ProductFileHandler",
+        "importPath": "app.handler.product_file_handler",
+        "description": "app.handler.product_file_handler",
+        "isExtraImport": true,
+        "detail": "app.handler.product_file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "send_to_rabbitmq",
+        "importPath": "app.rabitmq",
+        "description": "app.rabitmq",
+        "isExtraImport": true,
+        "detail": "app.rabitmq",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "app.rabitmq",
+        "description": "app.rabitmq",
+        "isExtraImport": true,
+        "detail": "app.rabitmq",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.routes",
+        "description": "app.routes",
+        "isExtraImport": true,
+        "detail": "app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "app.db",
+        "description": "app.db",
+        "isExtraImport": true,
+        "detail": "app.db",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "process_csv_with_pandas",
+        "importPath": "app.product_feed",
+        "description": "app.product_feed",
+        "isExtraImport": true,
+        "detail": "app.product_feed",
+        "documentation": {}
+    },
+    {
+        "label": "start_worker",
+        "importPath": "app.consumer",
+        "description": "app.consumer",
+        "isExtraImport": true,
+        "detail": "app.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.auth.jwt",
+        "description": "backend.services.product-management.app.auth.jwt",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\ndef verify_access_token(token: str):",
+        "detail": "backend.services.product-management.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.auth.jwt",
+        "description": "backend.services.product-management.app.auth.jwt",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\ndef verify_access_token(token: str):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
+        "detail": "backend.services.product-management.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.auth.jwt",
+        "description": "backend.services.product-management.app.auth.jwt",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\ndef verify_access_token(token: str):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        return payload\n    except JWTError:",
+        "detail": "backend.services.product-management.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_access_token",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.auth.jwt",
+        "description": "backend.services.product-management.app.auth.jwt",
+        "peekOfCode": "def verify_access_token(token: str):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        return payload\n    except JWTError:\n        return None",
+        "detail": "backend.services.product-management.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.auth.jwt",
+        "description": "backend.services.product-management.app.auth.jwt",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef hash_password(password: str) -> str:\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\ndef create_access_token(data: dict, expires_delta: timedelta | None = None):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "backend.services.product-management.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.config.config",
+        "description": "backend.services.product-management.app.config.config",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nSECRET_KEY = os.getenv(\"SECRET_KEY\")\nALGORITHM = os.getenv(\"ALGORITHM\", \"HS256\")\nACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv(\"ACCESS_TOKEN_EXPIRE_MINUTES\", 60))",
+        "detail": "backend.services.product-management.app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.config.config",
+        "description": "backend.services.product-management.app.config.config",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\")\nALGORITHM = os.getenv(\"ALGORITHM\", \"HS256\")\nACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv(\"ACCESS_TOKEN_EXPIRE_MINUTES\", 60))",
+        "detail": "backend.services.product-management.app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.config.config",
+        "description": "backend.services.product-management.app.config.config",
+        "peekOfCode": "ALGORITHM = os.getenv(\"ALGORITHM\", \"HS256\")\nACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv(\"ACCESS_TOKEN_EXPIRE_MINUTES\", 60))",
+        "detail": "backend.services.product-management.app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.config.config",
+        "description": "backend.services.product-management.app.config.config",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv(\"ACCESS_TOKEN_EXPIRE_MINUTES\", 60))",
+        "detail": "backend.services.product-management.app.config.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.config.db",
+        "description": "backend.services.product-management.app.config.db",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "backend.services.product-management.app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.config.db",
+        "description": "backend.services.product-management.app.config.db",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, pool_size=10, max_overflow=20)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "backend.services.product-management.app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.config.db",
+        "description": "backend.services.product-management.app.config.db",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "backend.services.product-management.app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.config.db",
+        "description": "backend.services.product-management.app.config.db",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "backend.services.product-management.app.config.db",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.model.products",
+        "description": "backend.services.product-management.app.model.products",
+        "peekOfCode": "class Product(Base):\n    __tablename__ = \"products\"\n    id = Column(Integer, primary_key=True, index=True)\n    store_id = Column(Integer, nullable=False)\n    sku = Column(String(100), nullable=False)\n    product_name = Column(String(255), nullable=False)\n    price = Column(Numeric(10, 2), nullable=False)\n    date = Column(TIMESTAMP, server_default=func.now(), nullable=False)",
+        "detail": "backend.services.product-management.app.model.products",
+        "documentation": {}
+    },
+    {
+        "label": "TaskStatus",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.model.tasks",
+        "description": "backend.services.product-management.app.model.tasks",
+        "peekOfCode": "class TaskStatus(Base):\n    __tablename__ = \"task_status\"\n    id = Column(Integer, primary_key=True, autoincrement=True)\n    status_name = Column(String(50), unique=True, nullable=False)\nclass Task(Base):\n    __tablename__ = \"tasks\"\n    id = Column(Integer, primary_key=True, autoincrement=True)\n    file_name = Column(String(255), nullable=False)\n    status_id = Column(Integer, ForeignKey(\"task_status.id\"), default=StatusTypes[\"PENDING\"])\n    created_at = Column(TIMESTAMP, server_default=func.now())",
+        "detail": "backend.services.product-management.app.model.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.model.tasks",
+        "description": "backend.services.product-management.app.model.tasks",
+        "peekOfCode": "class Task(Base):\n    __tablename__ = \"tasks\"\n    id = Column(Integer, primary_key=True, autoincrement=True)\n    file_name = Column(String(255), nullable=False)\n    status_id = Column(Integer, ForeignKey(\"task_status.id\"), default=StatusTypes[\"PENDING\"])\n    created_at = Column(TIMESTAMP, server_default=func.now())",
+        "detail": "backend.services.product-management.app.model.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.model.user",
+        "description": "backend.services.product-management.app.model.user",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    email = Column(String, unique=True, nullable=False)\n    password_hash = Column(String, nullable=False)\n    created_at = Column(DateTime, default=datetime.utcnow)",
+        "detail": "backend.services.product-management.app.model.user",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.router.authenticate",
+        "description": "backend.services.product-management.app.router.authenticate",
+        "peekOfCode": "def register(user: UserCreate, db: Session = Depends(get_db)):\n    existing_user = db.query(User).filter(User.email == user.email).first()\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"user already registered\")\n    new_user = User(email=user.email, password_hash=hash_password(user.password))\n    db.add(new_user)\n    db.commit()\n    db.refresh(new_user)\n    access_token = create_access_token({\"sub\": new_user.email}, expires_delta=timedelta(minutes=30))\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "detail": "backend.services.product-management.app.router.authenticate",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.router.authenticate",
+        "description": "backend.services.product-management.app.router.authenticate",
+        "peekOfCode": "def login(user: UserCreate, db: Session = Depends(get_db)):\n    db_user = db.query(User).filter(User.email == user.email).first()\n    if not db_user or not verify_password(user.password, db_user.password_hash):\n        raise HTTPException(status_code=401, detail=\"Invalid credentials\")\n    access_token = create_access_token({\"sub\": db_user.email}, expires_delta=timedelta(minutes=30))\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}\n@auth_router.get(\"/verify\")\ndef verify(token: str, db: Session = Depends(get_db)):\n    \"\"\"\n    Verify token and return user info.",
+        "detail": "backend.services.product-management.app.router.authenticate",
+        "documentation": {}
+    },
+    {
+        "label": "verify",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.router.authenticate",
+        "description": "backend.services.product-management.app.router.authenticate",
+        "peekOfCode": "def verify(token: str, db: Session = Depends(get_db)):\n    \"\"\"\n    Verify token and return user info.\n    \"\"\"\n    try:\n        payload =verify_access_token(token)\n        email = payload.get(\"sub\")\n        if email is None:\n            raise HTTPException(status_code=401, detail=\"Invalid token\")\n        user = db.query(User).filter(User.email == email).first()",
+        "detail": "backend.services.product-management.app.router.authenticate",
+        "documentation": {}
+    },
+    {
+        "label": "auth_router",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.router.authenticate",
+        "description": "backend.services.product-management.app.router.authenticate",
+        "peekOfCode": "auth_router = APIRouter(prefix=\"/auth\", tags=[\"Authentication\"])\n@auth_router.post(\"/register\", response_model=Token)\ndef register(user: UserCreate, db: Session = Depends(get_db)):\n    existing_user = db.query(User).filter(User.email == user.email).first()\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"user already registered\")\n    new_user = User(email=user.email, password_hash=hash_password(user.password))\n    db.add(new_user)\n    db.commit()\n    db.refresh(new_user)",
+        "detail": "backend.services.product-management.app.router.authenticate",
+        "documentation": {}
+    },
+    {
+        "label": "batch_insert",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.router.products",
+        "description": "backend.services.product-management.app.router.products",
+        "peekOfCode": "def batch_insert(products: List[ProductCreate], db: Session = Depends(get_db)):\n    \"\"\" Insert multiple products at once \"\"\"\n    try:\n        new_products = [Product(**product.dict()) for product in products]\n        db.add_all(new_products)\n        db.commit()\n        return {\"message\": \"Batch insert successful\", \"inserted_count\": len(new_products)}\n    except Exception as e:\n        # Catch any other exception and rollback\n        db.rollback()",
+        "detail": "backend.services.product-management.app.router.products",
+        "documentation": {}
+    },
+    {
+        "label": "update_product",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.router.products",
+        "description": "backend.services.product-management.app.router.products",
+        "peekOfCode": "def update_product(id: int, product_update: ProductUpdate,user = Depends(verify_auth), db: Session = Depends(get_db)):\n    \"\"\" Update product details by ID \"\"\"\n    try:\n        product = db.query(Product).filter(Product.id == id).first()\n        if not product:\n            raise HTTPException(status_code=404, detail=\"Product not found\")\n        # Update fields\n        if product_update.product_name:\n            product.product_name = product_update.product_name\n        product.price = product_update.price",
+        "detail": "backend.services.product-management.app.router.products",
+        "documentation": {}
+    },
+    {
+        "label": "get_products",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.router.products",
+        "description": "backend.services.product-management.app.router.products",
+        "peekOfCode": "def get_products(\n    db: Session = Depends(get_db),\n    user=Depends(verify_auth),\n    cursor: Optional[int] = Query(None, description=\"Last ID from previous page\"),\n    limit: int = Query(10, description=\"Rows per page (default: 10)\"),\n    minPrice: Optional[float] = Query(None, description=\"Minimum price filter\"),\n    maxPrice: Optional[float] = Query(None, description=\"Maximum price filter\"),\n    product_name: Optional[str] = Query(None, description=\"Filter by product name\"),\n):\n    \"\"\"Fetch products with cursor-based pagination and optional filters\"\"\"",
+        "detail": "backend.services.product-management.app.router.products",
+        "documentation": {}
+    },
+    {
+        "label": "product_router",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.router.products",
+        "description": "backend.services.product-management.app.router.products",
+        "peekOfCode": "product_router = APIRouter(prefix=\"/products\", tags=[\"Products\"])\n# Batch Insert\n@product_router.post(\"/batch\", status_code=201)\ndef batch_insert(products: List[ProductCreate], db: Session = Depends(get_db)):\n    \"\"\" Insert multiple products at once \"\"\"\n    try:\n        new_products = [Product(**product.dict()) for product in products]\n        db.add_all(new_products)\n        db.commit()\n        return {\"message\": \"Batch insert successful\", \"inserted_count\": len(new_products)}",
+        "detail": "backend.services.product-management.app.router.products",
+        "documentation": {}
+    },
+    {
+        "label": "create_task",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.router.tasks",
+        "description": "backend.services.product-management.app.router.tasks",
+        "peekOfCode": "def create_task(\n    task_request: TaskCreateRequest,\n    user = Depends(verify_auth),  # Ensure user is retrieved properly\n    db: Session = Depends(get_db),\n):\n    try:\n        new_task = Task( file_name=task_request.file_name)  \n        db.add(new_task)\n        db.commit()\n        db.refresh(new_task)",
+        "detail": "backend.services.product-management.app.router.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "get_task_status",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.router.tasks",
+        "description": "backend.services.product-management.app.router.tasks",
+        "peekOfCode": "def get_task_status(task_id: int, user = Depends(verify_auth),db: Session = Depends(get_db)):\n    task = db.query(Task).filter(Task.id == task_id).first()  \n    if not task:\n        raise HTTPException(status_code=404, detail=\"Task not found\")\n    return {\"task_id\": task.id, \"status_id\": task.status_id}\n@task_router.put(\"/{task_id}\")\ndef update_task_status(task_id: int, task_update: TaskUpdateRequest,user: dict = Depends(verify_auth), db: Session = Depends(get_db)):\n    try:\n        task = db.query(Task).filter(Task.id == task_id).with_for_update().first()\n        if not task:",
+        "detail": "backend.services.product-management.app.router.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "update_task_status",
+        "kind": 2,
+        "importPath": "backend.services.product-management.app.router.tasks",
+        "description": "backend.services.product-management.app.router.tasks",
+        "peekOfCode": "def update_task_status(task_id: int, task_update: TaskUpdateRequest,user: dict = Depends(verify_auth), db: Session = Depends(get_db)):\n    try:\n        task = db.query(Task).filter(Task.id == task_id).with_for_update().first()\n        if not task:\n            raise HTTPException(status_code=404, detail=\"Task not found\")\n        task.status_id = task_update.status_id\n        db.commit()\n        return {\"message\": \"Task status updated\", \"task_id\": task.id, \"new_status_id\": task.status_id}\n    except Exception as e:\n        # Catch any other exception and rollback",
+        "detail": "backend.services.product-management.app.router.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "task_router",
+        "kind": 5,
+        "importPath": "backend.services.product-management.app.router.tasks",
+        "description": "backend.services.product-management.app.router.tasks",
+        "peekOfCode": "task_router = APIRouter(prefix=\"/tasks\", tags=[\"tasks\"])\n@task_router.post(\"/\", status_code=201)\ndef create_task(\n    task_request: TaskCreateRequest,\n    user = Depends(verify_auth),  # Ensure user is retrieved properly\n    db: Session = Depends(get_db),\n):\n    try:\n        new_task = Task( file_name=task_request.file_name)  \n        db.add(new_task)",
+        "detail": "backend.services.product-management.app.router.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.schema.auth",
+        "description": "backend.services.product-management.app.schema.auth",
+        "peekOfCode": "class UserCreate(BaseModel):\n    email: str\n    password: str\nclass UserResponse(BaseModel):\n    id: int\n    email: str\n    class Config:\n        from_attributes = True\nclass Token(BaseModel):\n    access_token: str",
+        "detail": "backend.services.product-management.app.schema.auth",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.schema.auth",
+        "description": "backend.services.product-management.app.schema.auth",
+        "peekOfCode": "class UserResponse(BaseModel):\n    id: int\n    email: str\n    class Config:\n        from_attributes = True\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "backend.services.product-management.app.schema.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.schema.auth",
+        "description": "backend.services.product-management.app.schema.auth",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "backend.services.product-management.app.schema.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ProductCreate",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.schema.product",
+        "description": "backend.services.product-management.app.schema.product",
+        "peekOfCode": "class ProductCreate(BaseModel):\n    store_id: int\n    sku: str\n    product_name: str\n    price: float\nclass ProductUpdate(BaseModel):\n    price: float\n    product_name: Optional[str] = None",
+        "detail": "backend.services.product-management.app.schema.product",
+        "documentation": {}
+    },
+    {
+        "label": "ProductUpdate",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.schema.product",
+        "description": "backend.services.product-management.app.schema.product",
+        "peekOfCode": "class ProductUpdate(BaseModel):\n    price: float\n    product_name: Optional[str] = None",
+        "detail": "backend.services.product-management.app.schema.product",
+        "documentation": {}
+    },
+    {
+        "label": "TaskCreateRequest",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.schema.tasks",
+        "description": "backend.services.product-management.app.schema.tasks",
+        "peekOfCode": "class TaskCreateRequest(BaseModel):\n    file_name: str\nclass TaskUpdateRequest(BaseModel):\n    id:int\n    status_id: int",
+        "detail": "backend.services.product-management.app.schema.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "TaskUpdateRequest",
+        "kind": 6,
+        "importPath": "backend.services.product-management.app.schema.tasks",
+        "description": "backend.services.product-management.app.schema.tasks",
+        "peekOfCode": "class TaskUpdateRequest(BaseModel):\n    id:int\n    status_id: int",
+        "detail": "backend.services.product-management.app.schema.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.services.product-management.main",
+        "description": "backend.services.product-management.main",
+        "peekOfCode": "app = FastAPI(title=\"Auth Service\")\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],  \n    allow_credentials=True,\n    allow_methods=[\"GET\", \"POST\", \"PUT\", \"DELETE\", \"OPTIONS\"],  \n    allow_headers=[\"*\"], \n)\nBase.metadata.create_all(bind=engine) \napp.include_router(auth_router)",
+        "detail": "backend.services.product-management.main",
+        "documentation": {}
+    },
+    {
+        "label": "FileHandler",
+        "kind": 6,
+        "importPath": "backend.services.uploader.app.handler.file_handler",
+        "description": "backend.services.uploader.app.handler.file_handler",
+        "peekOfCode": "class FileHandler(ABC):\n    \"\"\"\n    Base class to handle file-related logic and validation.\n    \"\"\"\n    def __init__(self, file, upload_dir):\n        self.file = file\n        self.upload_dir = upload_dir\n        self.filename = file.filename\n        self.file_content = None  \n    @abstractmethod",
+        "detail": "backend.services.uploader.app.handler.file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "ProductFileHandler",
+        "kind": 6,
+        "importPath": "backend.services.uploader.app.handler.product_file_handler",
+        "description": "backend.services.uploader.app.handler.product_file_handler",
+        "peekOfCode": "class ProductFileHandler(FileHandler):\n    def __init__(self,header, file, upload_dir):\n        self.file=file\n        self.upload_dir=upload_dir\n        self.header=header\n    def validate(self):\n            if not self.file.filename.endswith('.csv'):\n                raise HTTPException(status_code=400, detail=\"Unsupported file type.\")\n    async def getTaskId(self):\n            task_payload = {\"file_name\": self.file.filename}",
+        "detail": "backend.services.uploader.app.handler.product_file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "get_product_file_handler",
+        "kind": 2,
+        "importPath": "backend.services.uploader.app.handler.product_file_handler",
+        "description": "backend.services.uploader.app.handler.product_file_handler",
+        "peekOfCode": "def get_product_file_handler(file: UploadFile = File(...), authorization: str = Header(...), upload_dir: str = UPLOAD_DIR) -> ProductFileHandler:\n    \"\"\"\n    Factory function that creates and returns a ProductFileHandler instance.\n    Uses FastAPI's dependency injection system.\n    \"\"\"\n    header = {\"Authorization\": authorization}  # Or whatever you need for the header\n    return ProductFileHandler(header=header, file=file, upload_dir=upload_dir)",
+        "detail": "backend.services.uploader.app.handler.product_file_handler",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_DIR",
+        "kind": 5,
+        "importPath": "backend.services.uploader.app.config",
+        "description": "backend.services.uploader.app.config",
+        "peekOfCode": "UPLOAD_DIR = os.getenv(\"UPLOAD_DIR\")\nPRODUCT_API_URL = os.getenv(\"PRODUCT_API_URL\")\nRABBITMQ_URL= os.getenv(\"RABBITMQ_URL\")\n# Ensure upload directory exists\nos.makedirs(UPLOAD_DIR, exist_ok=True)",
+        "detail": "backend.services.uploader.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "PRODUCT_API_URL",
+        "kind": 5,
+        "importPath": "backend.services.uploader.app.config",
+        "description": "backend.services.uploader.app.config",
+        "peekOfCode": "PRODUCT_API_URL = os.getenv(\"PRODUCT_API_URL\")\nRABBITMQ_URL= os.getenv(\"RABBITMQ_URL\")\n# Ensure upload directory exists\nos.makedirs(UPLOAD_DIR, exist_ok=True)",
+        "detail": "backend.services.uploader.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "kind": 2,
+        "importPath": "backend.services.uploader.app.rabitmq",
+        "description": "backend.services.uploader.app.rabitmq",
+        "peekOfCode": "def get_connection():\n    while True:\n        try:\n            connection = pika.BlockingConnection(pika.URLParameters('amqp://guest:guest@rabbitmq:5672/'))\n            return connection\n        except pika.exceptions.AMQPConnectionError as e:\n            print(f\"Failed to connect to RabbitMQ, retrying in 5 seconds... Error: {e}\")\n            time.sleep(5)\n# Function to send message to RabbitMQ\ndef send_to_rabbitmq(task_id: str):",
+        "detail": "backend.services.uploader.app.rabitmq",
+        "documentation": {}
+    },
+    {
+        "label": "send_to_rabbitmq",
+        "kind": 2,
+        "importPath": "backend.services.uploader.app.rabitmq",
+        "description": "backend.services.uploader.app.rabitmq",
+        "peekOfCode": "def send_to_rabbitmq(task_id: str):\n    try:\n        connection =  get_connection()\n        channel = connection.channel()\n        channel.queue_declare(queue='task_queue', durable=True)\n        message = json.dumps({\"task_id\": task_id})\n        channel.basic_publish(\n            exchange='',\n            routing_key='task_queue',  \n            body=message,",
+        "detail": "backend.services.uploader.app.rabitmq",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.services.uploader.app.routes",
+        "description": "backend.services.uploader.app.routes",
+        "peekOfCode": "router = APIRouter(prefix=\"/upload\", tags=[\"File Upload\"])\n@router.post(\"/products\")\nasync def upload_file(\n    file: UploadFile = File(...), \n                      authorization: str = Header(...), \n                      file_handler: ProductFileHandler = Depends(get_product_file_handler)):\n    task_id=await file_handler.process()\n    send_to_rabbitmq(task_id)\n    return {\n        \"task_id\": task_id,",
+        "detail": "backend.services.uploader.app.routes",
+        "documentation": {}
+    },
+    {
+        "label": "header_validation",
+        "kind": 2,
+        "importPath": "backend.services.uploader.app.validation",
+        "description": "backend.services.uploader.app.validation",
+        "peekOfCode": "def header_validation(authorization):\n        # Validate Bearer Token\n        if not authorization.startswith(\"Bearer \"):\n            raise HTTPException(status_code=401, detail=\"Invalid token format\")\n        token = authorization.split(\"Bearer \")[1]\n        # Create a new task entry in product-management-service\n        headers = {\"Authorization\": f\"Bearer {token}\"}\n        return headers",
+        "detail": "backend.services.uploader.app.validation",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "backend.services.uploader.main",
+        "description": "backend.services.uploader.main",
+        "peekOfCode": "def root():\n    return {\"message\": \"File Upload Service is running\"}",
+        "detail": "backend.services.uploader.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.services.uploader.main",
+        "description": "backend.services.uploader.main",
+        "peekOfCode": "app = FastAPI(title=\"File Upload Service\")\nfrom fastapi.middleware.cors import CORSMiddleware\napp = FastAPI(title=\"Auth Service\")\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],  \n    allow_credentials=True,\n    allow_methods=[\"GET\", \"POST\", \"PUT\", \"DELETE\", \"OPTIONS\"],  \n    allow_headers=[\"*\"], \n)",
+        "detail": "backend.services.uploader.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.services.uploader.main",
+        "description": "backend.services.uploader.main",
+        "peekOfCode": "app = FastAPI(title=\"Auth Service\")\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5173\"],  \n    allow_credentials=True,\n    allow_methods=[\"GET\", \"POST\", \"PUT\", \"DELETE\", \"OPTIONS\"],  \n    allow_headers=[\"*\"], \n)\napp.include_router(router)\n@app.get(\"/\")",
+        "detail": "backend.services.uploader.main",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "backend.services.worker.app.model.products",
+        "description": "backend.services.worker.app.model.products",
+        "peekOfCode": "class Product(Base):\n    __tablename__ = \"products\"\n    id = Column(Integer, primary_key=True, index=True)\n    store_id = Column(Integer, nullable=False)\n    sku = Column(String(100), nullable=False)\n    product_name = Column(String(255), nullable=False)\n    price = Column(Numeric(10, 2), nullable=False)\n    date = Column(TIMESTAMP, server_default=func.now(), nullable=False)",
+        "detail": "backend.services.worker.app.model.products",
+        "documentation": {}
+    },
+    {
+        "label": "TaskStatus",
+        "kind": 6,
+        "importPath": "backend.services.worker.app.model.tasks",
+        "description": "backend.services.worker.app.model.tasks",
+        "peekOfCode": "class TaskStatus(Base):\n    __tablename__ = \"task_status\"\n    id = Column(Integer, primary_key=True, autoincrement=True)\n    status_name = Column(String(50), unique=True, nullable=False)\nclass Task(Base):\n    __tablename__ = \"tasks\"\n    id = Column(Integer, primary_key=True, autoincrement=True)\n    file_name = Column(String(255), nullable=False)\n    status_id = Column(Integer, ForeignKey(\"task_status.id\"), default=StatusTypes[\"PENDING\"])\n    created_at = Column(TIMESTAMP, server_default=func.now())",
+        "detail": "backend.services.worker.app.model.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "kind": 6,
+        "importPath": "backend.services.worker.app.model.tasks",
+        "description": "backend.services.worker.app.model.tasks",
+        "peekOfCode": "class Task(Base):\n    __tablename__ = \"tasks\"\n    id = Column(Integer, primary_key=True, autoincrement=True)\n    file_name = Column(String(255), nullable=False)\n    status_id = Column(Integer, ForeignKey(\"task_status.id\"), default=StatusTypes[\"PENDING\"])\n    created_at = Column(TIMESTAMP, server_default=func.now())",
+        "detail": "backend.services.worker.app.model.tasks",
+        "documentation": {}
+    },
+    {
+        "label": "DIR",
+        "kind": 5,
+        "importPath": "backend.services.worker.app.config",
+        "description": "backend.services.worker.app.config",
+        "peekOfCode": "DIR = os.getenv(\"DIR\")\nDATABASE_URL = os.getenv(\"DATABASE_URL\")\nRABBITMQ_URL= os.getenv(\"RABBITMQ_URL\")",
+        "detail": "backend.services.worker.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend.services.worker.app.config",
+        "description": "backend.services.worker.app.config",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nRABBITMQ_URL= os.getenv(\"RABBITMQ_URL\")",
+        "detail": "backend.services.worker.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "consume_from_rabbitmq",
+        "kind": 2,
+        "importPath": "backend.services.worker.app.consumer",
+        "description": "backend.services.worker.app.consumer",
+        "peekOfCode": "def consume_from_rabbitmq():\n    connection = get_connection()\n    channel = connection.channel()\n    # Declare the queue to ensure it exists\n    channel.queue_declare(queue=\"task_queue\", durable=True)\n    # Set up the consumer to listen for messages\n    channel.basic_consume(queue=\"task_queue\", on_message_callback=callback, auto_ack=False)\n    logger.info(\"Worker is waiting for messages...\")\n    # Start consuming messages from RabbitMQ\n    while True:",
+        "detail": "backend.services.worker.app.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "start_worker",
+        "kind": 2,
+        "importPath": "backend.services.worker.app.consumer",
+        "description": "backend.services.worker.app.consumer",
+        "peekOfCode": "def start_worker():\n    worker_thread = threading.Thread(target=consume_from_rabbitmq)\n    worker_thread.daemon = True  # Daemon thread to run in the background\n    worker_thread.start()\n# RabbitMQ Callback Function to process the tasks\ndef callback(ch, method, properties, body):\n    global processing_tasks\n    if processing_tasks >= MAX_CONCURRENT_TASKS:\n        logger.info(\"Max concurrent tasks reached. Waiting for task completion.\")\n        return",
+        "detail": "backend.services.worker.app.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "kind": 2,
+        "importPath": "backend.services.worker.app.consumer",
+        "description": "backend.services.worker.app.consumer",
+        "peekOfCode": "def callback(ch, method, properties, body):\n    global processing_tasks\n    if processing_tasks >= MAX_CONCURRENT_TASKS:\n        logger.info(\"Max concurrent tasks reached. Waiting for task completion.\")\n        return\n    try:\n        # Parse the message body\n        message = json.loads(body)\n        task_id = message[\"task_id\"]\n        processing_tasks += 1",
+        "detail": "backend.services.worker.app.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.services.worker.app.consumer",
+        "description": "backend.services.worker.app.consumer",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nMAX_CONCURRENT_TASKS = 10  # Maximum number of tasks to process concurrently\nprocessing_tasks = 0\ndef consume_from_rabbitmq():\n    connection = get_connection()\n    channel = connection.channel()\n    # Declare the queue to ensure it exists\n    channel.queue_declare(queue=\"task_queue\", durable=True)\n    # Set up the consumer to listen for messages\n    channel.basic_consume(queue=\"task_queue\", on_message_callback=callback, auto_ack=False)",
+        "detail": "backend.services.worker.app.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_CONCURRENT_TASKS",
+        "kind": 5,
+        "importPath": "backend.services.worker.app.consumer",
+        "description": "backend.services.worker.app.consumer",
+        "peekOfCode": "MAX_CONCURRENT_TASKS = 10  # Maximum number of tasks to process concurrently\nprocessing_tasks = 0\ndef consume_from_rabbitmq():\n    connection = get_connection()\n    channel = connection.channel()\n    # Declare the queue to ensure it exists\n    channel.queue_declare(queue=\"task_queue\", durable=True)\n    # Set up the consumer to listen for messages\n    channel.basic_consume(queue=\"task_queue\", on_message_callback=callback, auto_ack=False)\n    logger.info(\"Worker is waiting for messages...\")",
+        "detail": "backend.services.worker.app.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "processing_tasks",
+        "kind": 5,
+        "importPath": "backend.services.worker.app.consumer",
+        "description": "backend.services.worker.app.consumer",
+        "peekOfCode": "processing_tasks = 0\ndef consume_from_rabbitmq():\n    connection = get_connection()\n    channel = connection.channel()\n    # Declare the queue to ensure it exists\n    channel.queue_declare(queue=\"task_queue\", durable=True)\n    # Set up the consumer to listen for messages\n    channel.basic_consume(queue=\"task_queue\", on_message_callback=callback, auto_ack=False)\n    logger.info(\"Worker is waiting for messages...\")\n    # Start consuming messages from RabbitMQ",
+        "detail": "backend.services.worker.app.consumer",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "backend.services.worker.app.db",
+        "description": "backend.services.worker.app.db",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, pool_size=10, max_overflow=20)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "detail": "backend.services.worker.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "backend.services.worker.app.db",
+        "description": "backend.services.worker.app.db",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()",
+        "detail": "backend.services.worker.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "backend.services.worker.app.db",
+        "description": "backend.services.worker.app.db",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "backend.services.worker.app.db",
+        "documentation": {}
+    },
+    {
+        "label": "process_csv_with_pandas",
+        "kind": 2,
+        "importPath": "backend.services.worker.app.product_feed",
+        "description": "backend.services.worker.app.product_feed",
+        "peekOfCode": "def process_csv_with_pandas(task_id: str):\n    file_name = f\"{task_id}.csv\"\n    file_path = os.path.join(DIR, file_name)\n    try:\n        if not os.path.exists(file_path):\n            raise HTTPException(status_code=404, detail=\"File not found.\")\n        # Load CSV with Pandas\n        df = pd.read_csv(file_path)\n        print(f\"Loaded {len(df)} rows from {file_name}\")\n        # Process records in batches of 100",
+        "detail": "backend.services.worker.app.product_feed",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "kind": 2,
+        "importPath": "backend.services.worker.app.rabitmq",
+        "description": "backend.services.worker.app.rabitmq",
+        "peekOfCode": "def get_connection():\n    while True:\n        try:\n            connection = pika.BlockingConnection(pika.URLParameters('amqp://guest:guest@rabbitmq:5672/'))\n            return connection\n        except pika.exceptions.AMQPConnectionError as e:\n            print(f\"Failed to connect to RabbitMQ, retrying in 5 seconds... Error: {e}\")\n            time.sleep(5)",
+        "detail": "backend.services.worker.app.rabitmq",
+        "documentation": {}
+    },
+    {
+        "label": "startup_event",
+        "kind": 2,
+        "importPath": "backend.services.worker.main",
+        "description": "backend.services.worker.main",
+        "peekOfCode": "def startup_event():\n    start_worker()\n# Example FastAPI route for health check\n@app.get(\"/health\")\ndef read_health():\n    return {\"status\": \"OK\"}",
+        "detail": "backend.services.worker.main",
+        "documentation": {}
+    },
+    {
+        "label": "read_health",
+        "kind": 2,
+        "importPath": "backend.services.worker.main",
+        "description": "backend.services.worker.main",
+        "peekOfCode": "def read_health():\n    return {\"status\": \"OK\"}",
+        "detail": "backend.services.worker.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.services.worker.main",
+        "description": "backend.services.worker.main",
+        "peekOfCode": "app = FastAPI()\nprint(\"starting worker\")\n# Call the start_worker function to launch the worker when the FastAPI service starts\n@app.on_event(\"startup\")\ndef startup_event():\n    start_worker()\n# Example FastAPI route for health check\n@app.get(\"/health\")\ndef read_health():\n    return {\"status\": \"OK\"}",
+        "detail": "backend.services.worker.main",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]

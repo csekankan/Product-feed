@@ -1,0 +1,107 @@
+/* Navbar container */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #282c34;
+    padding: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo container */
+  .logo-container {
+    flex: 1;
+    display: flex;
+  }
+  
+  /* Logo text style */
+  .logo {
+    color: #ffffff;
+    font-size: 22px; /* Reasonable font size for logo */
+    font-weight: 600;
+    padding-left: 100px;
+    font-family: Arial, sans-serif;
+    text-transform: none; /* Keep Title Case */
+    white-space: nowrap; /* Keep the words in one line */
+  }
+  @media (max-width: 768px) {
+    .logo {
+      display: none; /* Hide the logo on screens smaller than 768px */
+    }
+  }
+  /* Link container */
+  .link-container {
+    display: flex;
+    right:100px;
+    justify-content: center; /* Align all links to right */
+    gap: 20px; /* Space between links */
+    padding-right: 100px;
+  }
+  
+  /* Logout links container */
+  .logout-links {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+  }
+  .center-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+  }
+  /* General link styles */
+  .link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px; /* Standard font size for links */
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;
+    text-transform: uppercase; /* Uppercase for other links */
+  }
+  
+  /* Smaller link styles */
+  .small-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px; /* Smaller font size for links near logout */
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;
+    text-transform: uppercase;
+  }
+  
+  .big-button{
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;
+    text-transform: uppercase;
+  }
+  /* Logout button styles */
+  .logout-button {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+  }
+  
