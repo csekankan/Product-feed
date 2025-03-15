@@ -72,9 +72,9 @@ Used chatGPT for following:
 
 
 #####  5. Scope to improve
-- Use AWS self managed  services for this development.It handle lot of burden of manageing queue,handling edge cases.And Gurantee availability.
+- Use AWS self managed  services for this development .It handle lot of burden of manageing queue,handling edge cases.And Gurantee availability.
 - can use AWS lambda instead of running in servers (EC2)
-- Use separate replica of database for most of the read queries.It will be very efficient when lot of file upload processed
+- Use read replica of database for most of the read queries. This will be very efficient when lot of file upload processed.
 # 🚀 Project Setup & Usage
 
 ## Prerequisites
