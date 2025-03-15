@@ -10,7 +10,7 @@ export const NavBar: React.FC = () => {
   return (
     <nav className="nav-container">
       <div className="logo-container">
-        <h1 className="logo">Tiger Analytics</h1>
+        <h1 className="logo">Product Analytics</h1>
       </div>
       <div className="link-container">
         <div className="center-links">
