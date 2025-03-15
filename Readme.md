@@ -53,7 +53,7 @@ Upload the artifacts and source to your Github repository and include a referenc
 #####  4. Non-Functional Requirements & Considerations
 - **Scalability:**
     -  Message queue allows task distribution across multiple worker instances.Can be configured to handle failure cases.
-    - The microservices are **State less** then can be scaled horizontaly.This approach make the backend handle data from 3000 stores
+    - The microservices are **State less** they can be scaled horizontaly.This approach make the backend handle data from 3000 stores
     - we have separate services to handle specific function.Uploader and worker process can be scalled according to our load
     - Polling :One important thing after upoload will be knowing status.We have decided to go with **Polling**(Long or Short).Major reson to avoid Websocket or Server sent event is we don't need real time status .And managing connection very difficult if system scale.
 - **Performance:** Batch insert reduces database write overhead.
@@ -110,10 +110,43 @@ docker exec -it postgres_db psql -U product -d product -c "\dt"
 ```sh
 docker exec -it postgres_db psql -U product -d product
 ```
+### All tables
+```sql
 
+CREATE TABLE IF NOT EXISTS users (
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS task_status (
+    id SERIAL PRIMARY KEY,
+    status_name VARCHAR(50) UNIQUE NOT NULL, 
+    description TEXT DEFAULT NULL,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS tasks (
+    id SERIAL PRIMARY KEY,
+    file_name VARCHAR(255) NOT NULL,
+    status_id INTEGER NOT NULL DEFAULT 1 REFERENCES task_status(id) ON DELETE SET NULL,
+    created_at TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS products (
+    id SERIAL PRIMARY KEY,
+    store_id INTEGER NOT NULL,
+    sku VARCHAR(100) NOT NULL,
+    product_name VARCHAR(255) NOT NULL,
+    price NUMERIC(10, 2) NOT NULL,
+    date TIMESTAMP NOT NULL
+);
+
+
+```
 ## Task Status Management
 To check the **task status**, run the following SQL command:
-
 ### Insert Default Task Statuses (if table is empty)
 ```sql
 INSERT INTO task_status (id, status_name)
