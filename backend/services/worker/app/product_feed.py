@@ -6,6 +6,7 @@ from app.db import SessionLocal
 from app.model.products import Product
 from app.model.tasks import Task
 from app.model.tasks import StatusTypes
+from datetime import datetime
 
 def process_csv_with_pandas(task_id: str):
     file_name = f"{task_id}.csv"
@@ -38,10 +39,12 @@ def process_csv_with_pandas(task_id: str):
                         store_id=row['store_id'],
                         sku=row['sku'],
                         product_name=row['product_name'],
-                        price=row['price']
+                        price=row['price'],
+                        date=datetime.utcnow() if pd.isna(row.get('date')) else row['date'] 
+
                     ) 
                     for _, row in batch.iterrows()
-                ]
+                    ]
 
                 db.add_all(products)
 
@@ -56,14 +59,14 @@ def process_csv_with_pandas(task_id: str):
             task.status_id = StatusTypes["FAILED"]
             db.commit()
             print(f"Error inserting products: {e}")
-            raise HTTPException(status_code=500, detail="Failed to process CSV file.")
+            raise HTTPException(status_code=500, detail=f"Failed to process CSV file.Database Error{e}")
 
         finally:
             db.close()
 
     except Exception as e:
         print(f"Error processing CSV with Pandas: {e}")
-        raise HTTPException(status_code=500, detail="Failed to process CSV file.")
+        raise HTTPException(status_code=500, detail=f"Failed to process CSV file.{e}")
 
     finally:
         # **Delete the file after processing**

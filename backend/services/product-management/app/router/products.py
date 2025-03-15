@@ -10,19 +10,19 @@ from app.middleware.authentication import verify_auth
 
 product_router = APIRouter(prefix="/products", tags=["Products"])
 
-# Batch Insert
-@product_router.post("/batch", status_code=201)
-def batch_insert(products: List[ProductCreate], db: Session = Depends(get_db)):
-    """ Insert multiple products at once """
-    try:
-        new_products = [Product(**product.dict()) for product in products]
-        db.add_all(new_products)
-        db.commit()
-        return {"message": "Batch insert successful", "inserted_count": len(new_products)}
-    except Exception as e:
-        # Catch any other exception and rollback
-        db.rollback()
-        raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
+# # Batch Insert
+# @product_router.post("/batch", status_code=201)
+# def batch_insert(products: List[ProductCreate], db: Session = Depends(get_db)):
+#     """ Insert multiple products at once """
+#     try:
+#         new_products = [Product(**product.dict()) for product in products]
+#         db.add_all(new_products)
+#         db.commit()
+#         return {"message": "Batch insert successful", "inserted_count": len(new_products)}
+#     except Exception as e:
+#         # Catch any other exception and rollback
+#         db.rollback()
+#         raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
 
 
 #  Single Product Update
@@ -47,7 +47,7 @@ def update_product(id: int, product_update: ProductUpdate,user = Depends(verify_
         raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
 
 # Cursor-Based Pagination with Price Range and Product Name Filter
-@product_router.get("/")
+@product_router.get("")
 def get_products(
     db: Session = Depends(get_db),
     user=Depends(verify_auth),

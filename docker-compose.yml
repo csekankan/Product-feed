@@ -73,6 +73,7 @@ services:
       - "8002:8002"
     volumes:
       - ./s3:/app/s3  
+
   workers:
     build: ./backend/services/worker
     container_name: workers
@@ -88,6 +89,18 @@ services:
     restart: always
     volumes:
       - ./s3:/app/s3  
+
+  frontend:
+    build: ./frontend  # Add frontend directory
+    container_name: frontend
+    restart: always
+    depends_on:
+      - product-management-service
+    ports:
+      - "5173:5173"  # Expose Vite default port
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules  # Avoid sharing node_modules between host and container
 
 volumes:
   postgres_data:

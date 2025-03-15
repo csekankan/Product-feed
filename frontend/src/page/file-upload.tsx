@@ -69,7 +69,7 @@ const FileUpload: React.FC = () => {
         },
       });
       setTaskId(response?.data?.task_id);
-      // toast.info('File upload started. Processing...',toastPProps);
+       toast.info('File upload started. Processing...',toastPProps);
     } catch (error) {
       toast.error('File upload failed',toastPProps);
     }
