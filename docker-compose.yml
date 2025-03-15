@@ -1,5 +1,6 @@
 version: "3.8"
-
+#For a sake of building prototype I every sensitive info (userid,pass) here
+# best practice is to use screat manager and fetch these details
 services:
   db:
     image: postgres:15
@@ -84,23 +85,23 @@ services:
     environment:
       RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672/
       DIR: /app/s3  
-      DATABASE_URL: postgresql://product:product@pgbouncer:6432/product
+      DATABASE_URL: postgresql://product:product@pgbouncer:6432/product 
       PRODUCT_API_URL: http://product-management-service:8001
     restart: always
     volumes:
       - ./s3:/app/s3  
 
   frontend:
-    build: ./frontend  # Add frontend directory
+    build: ./frontend  
     container_name: frontend
     restart: always
     depends_on:
       - product-management-service
     ports:
-      - "5173:5173"  # Expose Vite default port
+      - "5173:5173"  
     volumes:
       - ./frontend:/app
-      - /app/node_modules  # Avoid sharing node_modules between host and container
+      - /app/node_modules  
 
 volumes:
   postgres_data:
