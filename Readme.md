@@ -26,7 +26,7 @@ Upload the artifacts and source to your Github repository and include a referenc
 ## 📖 Questions & Answers
 
 ##### 1. Context Diagram
-
+![Context Diagrame](diagrams/context.png)
 
 #####  2. Solution Architecture
 - **Frontend:** React + Vite SPA for user interaction.
