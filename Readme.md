@@ -39,19 +39,21 @@ Upload the artifacts and source to your Github repository and include a referenc
 - **Docker & Compose:** For containerized deployment.
 
 #####  3. Design Decisions
-- **Frontend**:
+- **Backend**:
     - **Microservices Approach:** Separation of concerns between product management, upload handling, and task processing.
     - **Batch Insert Strategy:** To efficiently handle large CSV uploads.
     - **Message Queue (RabbitMQ/AWs message ):** Ensures non-blocking request processing.
     - **Connection Pooling (PgBouncer):** Prevents database overloading.
-- **Backend**:
-    - As the list could grould we are using react-virtualized to make render efficiently
+- **Frontend **:
+    - As the list could grould we are using **react-virtualized** to make render efficiently
+    - We have use polling to get task status from user.Here in the implementation predefined polling every 1 second max of 10 time.This can be changed or optimized based on file size.
 
 #####  4. Non-Functional Requirements & Considerations
 - **Scalability:**
     -  Message queue allows task distribution across multiple worker instances.Can be configured to handle failure cases.
-    - The microservices are STATELESS then can be scaled horizontaly.This approach make the backend handle data from 3000 stores
+    - The microservices are **STATELESS** then can be scaled horizontaly.This approach make the backend handle data from 3000 stores
     - we have separate services to handle specific function.Uploader and worker process can be scalled according to our load
+    - Polling :One important thing after upoload will be knowing status.We have decided to go with **Polling**(Long or Short).Major reson to avoid Websocket or Server sent event is we don't need real time status .
 - **Performance:** Batch insert reduces database write overhead.
 - **availability :**: Can use AWS services for 99.99% availability
 
