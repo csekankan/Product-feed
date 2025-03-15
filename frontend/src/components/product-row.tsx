@@ -43,6 +43,7 @@ export const ProductRow: React.FC<{
           value={productName}
           onChange={(e) => setProductName(e.target.value)}
           style={styles.input}
+          readOnly
         />
       </div>
 
@@ -58,6 +59,7 @@ export const ProductRow: React.FC<{
           value={price}
           onChange={(e) => setPrice(parseFloat(e.target.value) || 0)}
           style={styles.input}
+          readOnly
         />
       </div>
 
