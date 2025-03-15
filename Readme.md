@@ -22,7 +22,7 @@ Upload the artifacts and source to your Github repository and include a referenc
 
 ## 📌 Architecture Diagram
 ![Architecture](diagrams/architecture_v5.png)
-![Architecture](diagrams/diagram_with_AWS_v1.png)
+![Architecture](diagrams/diagram_with_AWS_v2.png)
 ## 📖 Questions & Answers
 
 ##### 1. Context Diagram
