@@ -37,13 +37,15 @@ Upload the artifacts and source to your Github repository and include a referenc
 - **Database:** Considering we will will upload and show all the product information- Any sql database seems good choice.We have incorporate proxy servers to manage connection polling. PostgreSQL with PgBouncer for connection pooling.
 - **Message Queue:** RabbitMQ/AWS message queue to manage  tasks.
 - **Docker & Compose:** For containerized deployment.
-
+- **Storage:** Object storage (s3)
+- **Cloud services:**  AWS/Azure
 #####  3. Design Decisions
 - **Backend**:
     - **Microservices Approach:** Separation of concerns between product management, upload handling, and task processing.
     - **Batch Insert Strategy:** To efficiently handle large CSV uploads.
     - **Message Queue (RabbitMQ/AWs message ):** Ensures non-blocking request processing.
     - **Connection Pooling (PgBouncer):** Prevents database overloading.
+    - **Storage:** Object staorage like (s3)
 - **Frontend **:
     - As the list could grould we are using **react-virtualized** to make render efficiently
     - We have use polling to get task status from user.Here in the implementation predefined polling every 1 second max of 10 time.This can be changed or optimized based on file size.
@@ -60,7 +62,7 @@ Upload the artifacts and source to your Github repository and include a referenc
 
 
 #####  5. Assumptions
-
+- we will delete the file after upload(Can be extended to storage in archive and use different  lifecycle policy)
 - Assumption is each of the 3000 stores upload the feed once or twice daily.Each store have max 1 or two users (Manager)to access the webisite daily
 - It is fine for user to wait for status of the file upload.As for large file it could take time for upload.
 - Frontend will be used for leass heavy update.More on viewing data.(read heavy than write heavy)
