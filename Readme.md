@@ -55,17 +55,17 @@ Upload the artifacts and source to your Github repository and include a referenc
     -  Message queue allows task distribution across multiple worker instances.Can be configured to handle failure cases.
     - The microservices are **STATELESS** then can be scaled horizontaly.This approach make the backend handle data from 3000 stores
     - we have separate services to handle specific function.Uploader and worker process can be scalled according to our load
-    - Polling :One important thing after upoload will be knowing status.We have decided to go with **Polling**(Long or Short).Major reson to avoid Websocket or Server sent event is we don't need real time status .
+    - Polling :One important thing after upoload will be knowing status.We have decided to go with **Polling**(Long or Short).Major reson to avoid Websocket or Server sent event is we don't need real time status .And managing connection very difficult if system scale.
 - **Performance:** Batch insert reduces database write overhead.
 - **availability :**: Can use AWS services for 99.99% availability
 
 
 
 #####  5. Assumptions
-- we will delete the file after upload(Can be extended to storage in archive and use different  lifecycle policy)
+- we will **delete** the file after upload(Can be extended to storage in archive and use different  lifecycle policy)
 - Assumption is each of the 3000 stores upload the feed once or twice daily.Each store have max 1 or two users (Manager)to access the webisite daily
 - It is fine for user to wait for status of the file upload. As for large file it could take time for upload.
-- Frontend will be used for leass heavy update.More on viewing data.(read heavy than write heavy)
+- Frontend will be used for *read heavy operation  write heavy*
 
 
 ##### 6. Source of Implemention
