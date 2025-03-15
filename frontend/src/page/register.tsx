@@ -2,26 +2,24 @@ import React, { useState } from 'react';
 import { createUser } from '../services/api-service';
 import '../css/register.css'; 
 import { NavBar } from '../components/navbar';
+import { useNavigate } from 'react-router-dom';
 
 const Register: React.FC = () => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [error, setError] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
-
+  const navigate = useNavigate()
   const handleCreateAccount = async () => {
     setLoading(true);
     setError('');
-
-    try {
-      const response = await createUser(email, password);
-      console.log('Account created:', response);
-    } catch (error) {
+     createUser(email, password).then( res=>navigate('/login')).catch( (e)=>{
+      setLoading(false);
       setError('Account creation failed. Please try again.');
       console.error('Account creation failed:', error);
-    } finally {
-      setLoading(false);
-    }
+    
+  })
+     
   };
 
   return (

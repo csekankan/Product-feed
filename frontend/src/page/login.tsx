@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useAuth } from '../context/auth-context';
 import { loginUser } from '../services/api-service';
 import { useNavigate } from 'react-router-dom';
@@ -8,10 +8,14 @@ import { NavBar } from '../components/navbar';
 const Login: React.FC = () => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
-  const { login } = useAuth(); 
+  const { login,isLoggedIn } = useAuth(); 
   const [error, setError] = useState<string>('');
   const navigate = useNavigate(); 
-
+  useEffect(()=>{
+    if(isLoggedIn){
+      navigate('/upload');
+    }
+  },[])
   const handleLogin = async () => {
     try {
       const data = await loginUser(email, password);
