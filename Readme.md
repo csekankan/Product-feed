@@ -21,7 +21,7 @@ Expected Deliverables:
 Upload the artifacts and source to your Github repository and include a reference to it as part of the response.
 
 ## 📌 Architecture Diagram
-![Architecture](diagrams/architecture_v3.png)
+![Architecture](diagrams/architecture_v4.png)
 
 ## 📖 Questions & Answers
 
