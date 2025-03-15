@@ -71,10 +71,10 @@ export const useProducts = () => {
   );
 
   const handleProductChange = useCallback(
-    (id: number, field: string, value: string | number) => {
+    (id: number, newproduct:Product) => {
       setProducts((prev) =>
         prev.map((product) =>
-          product.id === id ? { ...product, [field]: value, isUpdated: true } : product
+          product.id === id ? { ...newproduct, isUpdated: true } : product
         )
       );
     },

@@ -5,8 +5,8 @@ import { useAuth } from '../context/auth-context';
 import '../css/nav.css'; // Import the CSS file
 
 export const NavBar: React.FC = () => {
-  const { isLoggedIn, logout } = useAuth();
-
+  const { isLoggedIn, logout ,isTokenExpired} = useAuth();
+  
   return (
     <nav className="nav-container">
       <div className="logo-container">
@@ -21,7 +21,7 @@ export const NavBar: React.FC = () => {
         )}
         </div>
         <div className="logout-links">
-          {!isLoggedIn ? (
+          {!isTokenExpired() ? (
             <>
               <Link className="big-button" to="/login">LOGIN</Link>
               <Link className="big-button" to="/register">REGISTER</Link>

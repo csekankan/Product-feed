@@ -5,12 +5,15 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 30px;
     margin: 2px;
     padding: 10px;
   
   }
+.green-row{
+  background-color: #B9E2A7;
+}
 
 
   .row-button {

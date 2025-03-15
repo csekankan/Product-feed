@@ -6,7 +6,6 @@ import {NavBar} from './navbar';
 
 const ProtectedRoute: React.FC = () => {
   const { isTokenExpired } = useAuth();
- console.log("check",isTokenExpired())
   if (isTokenExpired()) {
     return <Navigate to="/login" />;
   }

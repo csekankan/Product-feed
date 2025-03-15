@@ -7,20 +7,22 @@ import "../css/product-edit-row.css";
 
 export const ProductRow: React.FC<{
   product: Product;
-  onChange: (id: number, field: string, value: string | number) => void;
+  onChange: (id: number, Product:Product) => void;
 }> = React.memo(({ product, onChange }) => {
   const [price, setPrice] = useState(product.price);
   const [productName, setProductName] = useState(product.product_name);
-
+  const [isRowUpdated,setIsRowUpdated]=useState(false)
   const saveDetails = () => {
+    setIsRowUpdated(true)
     updateProduct(product.id, productName, price)
       .then((res) => {
-        if (res.message === "Product updated") {
-          console.log("done")
-          toast.success("Product updated successfully!", {
-            position: "top-center",
-            autoClose: 2000,
-          });
+        if (res.message === "Product updated") { 
+          // onChange(product.id,product)
+          console.log("updated")
+          // toast.success("Product updated successfully!", {
+          //   position: "top-center",
+          //   autoClose: 2000,
+          // });
         }
       })
       .catch((error) => {
@@ -33,7 +35,7 @@ export const ProductRow: React.FC<{
   };
 
   return (
-    <div className="product-wrapper">
+    <div className={["product-wrapper",isRowUpdated?"green-row":null].filter(Boolean).join(" ")}>
       <input
         className="row-input"
         type="text"
