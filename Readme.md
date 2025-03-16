@@ -192,12 +192,27 @@ CREATE TABLE IF NOT EXISTS error_records (
 To check the **task status**, run the following SQL command:
 ### Insert Default Task Statuses (if table is empty)
 ```sql
+
+As this run uses postgrase docker there may be issue with persistent.PLease verify following table and ensure data present
 INSERT INTO task_status (id, status_name)
 VALUES
     (1, 'pending'),
     (2, 'processing'),
     (3, 'completed'),
     (4, 'failed');
+INSERT INTO stores (store_name, pincode, country) VALUES
+    ('Walmart Supercenter', '10001', 'USA'),
+    ('Target Store', '94103', 'USA'),
+    ('Best Buy Downtown', '90001', 'USA'),
+    ('Costco Wholesale', '60601', 'USA'),
+    ('Amazon Fresh', '77001', 'USA'),
+    ('Whole Foods Market', '30301', 'USA'),
+    ('Kroger Marketplace', '80202', 'USA'),
+    ('Safeway Supermarket', '98101', 'USA'),
+    ('Publix', '33101', 'USA'),
+    ('Aldi', '60602', 'USA'),
+    -- Add remaining stores...
+    ('Kmart', '48226', 'USA');
 ```
 
 ## RabbitMQ Management
