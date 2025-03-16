@@ -77,4 +77,17 @@
       width: 100%;
     }
   }
+  .register-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  .register-select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
   

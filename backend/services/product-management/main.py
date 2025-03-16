@@ -3,6 +3,7 @@ from app.config.db import engine, Base
 from app.router.authenticate  import auth_router
 from app.router.tasks  import task_router
 from app.router.products  import product_router
+from app.router.stores  import store_router
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Product Management Service")
@@ -17,3 +18,4 @@ Base.metadata.create_all(bind=engine)
 app.include_router(auth_router)
 app.include_router(task_router)
 app.include_router(product_router)
+app.include_router(store_router)
