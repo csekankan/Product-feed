@@ -50,7 +50,8 @@ Upload the artifacts and source to your Github repository and include a referenc
     - As the list could grould we are using **react-virtualized** to make render efficiently
     - We have use polling to get task status from user.Here in the implementation predefined polling every 1 second max of 10 time.This can be changed or optimized based on file size.
 - **Database Tables**:
-    - since we will deal with large data from **different stores and multiple worker** could do bulk insert in the table , there may be some issue with locking.One solution to use **uuid** for primary key.But it consume 128 bits and also it is difficult to perform pagination as uuid typically not follow sorted index unlike serial id. So we are **partioning table by store_id**.Considering assumption we will upload file for each store(enforce validation) we can use serial numeric promary key.
+    - As per the assumption we have created a partition key on store_id for products table
+    - since we will deal with large data from **different stores and multiple worker** could do bulk insert in the table , there may be some issue with locking.One solution to use **uuid** for primary key.But it consume 128 bits and also it is difficult to perform **pagination as uuid typically not follow sorted index** unlike serial id. So one approach could be considered is have separate **sequence for product_id  each partions**. we maintain **id uuid for global uniqueeness** but use **product_id for each partion for indexing and pagination purpose**.Although it bring tradeof on side of the table, but it can be worth considering.In this **implementaion we put is as future scope.**
 #####  4. Non-Functional Requirements & Considerations
 - **Scalability:**
     - **Decopupling**- Message queue allows task distribution across multiple worker instances.Can be configured to handle failure cases.
