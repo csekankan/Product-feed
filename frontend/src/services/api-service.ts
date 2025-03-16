@@ -58,11 +58,21 @@ export const taskStatus = async (taskId: number) => {
     throw error;
   }
 };
-
-// Register User
-export const createUser = async (email: string, password: string) => {
+//stores
+export const fetchStores = async () => {
   try {
-    const response = await axios.post(`${API_URL}/auth/register`, { email, password });
+    const axiosInstance = createAxiosInstance();
+    const response = await axiosInstance.get(`/stores`);
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching stores:', error);
+    throw error;
+  }
+};
+// Register User
+export const createUser = async (email: string, password: string,store_id:number) => {
+  try {
+    const response = await axios.post(`${API_URL}/auth/register`, { email, password,store_id });
     return response.data;
   } catch (error) {
     console.error('User registration failed:', error);

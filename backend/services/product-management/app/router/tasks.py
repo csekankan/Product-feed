@@ -15,7 +15,7 @@ def create_task(
     db: Session = Depends(get_db),
 ):
     try:
-        new_task = Task( file_name=task_request.file_name)  
+        new_task = Task( file_name=task_request.file_name,store_id=user["store_id"])  
         db.add(new_task)
         db.commit()
         db.refresh(new_task)
@@ -45,7 +45,5 @@ def update_task_status(task_id: int, task_update: TaskUpdateRequest,user: dict =
         return {"message": "Task status updated", "task_id": task.id, "new_status_id": task.status_id}
 
     except Exception as e:
-        # Catch any other exception and rollback
         db.rollback()
         raise HTTPException(status_code=500, detail=f"An unexpected error occurred: {str(e)}")
-

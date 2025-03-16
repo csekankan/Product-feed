@@ -32,6 +32,7 @@ class ProductFileHandler(FileHandler):
             return task_id
 
     async def process(self):
+        try:
             # self.validate()
             task_id=await self.getTaskId()
             # Get file extension
@@ -43,7 +44,9 @@ class ProductFileHandler(FileHandler):
             # Rename file to task_id while keeping the extension
             file_path = os.path.join(UPLOAD_DIR, new_filename)
             await self.save_file(file_path)
-            return task_id
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"error occured {e}")
+        return task_id
 
 
 def get_product_file_handler(file: UploadFile = File(...), authorization: str = Header(...), upload_dir: str = UPLOAD_DIR) -> ProductFileHandler:

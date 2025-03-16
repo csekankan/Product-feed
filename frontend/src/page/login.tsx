@@ -8,11 +8,12 @@ import { NavBar } from '../components/navbar';
 const Login: React.FC = () => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
-  const { login,isLoggedIn } = useAuth(); 
+  const { login,isLoggedIn,isTokenExpired } = useAuth(); 
   const [error, setError] = useState<string>('');
   const navigate = useNavigate(); 
+
   useEffect(()=>{
-    if(isLoggedIn){
+    if(!isTokenExpired()){
       navigate('/upload');
     }
   },[])
