@@ -164,15 +164,18 @@ CREATE TABLE IF NOT EXISTS tasks (
     store_id INTEGER NOT NULL 
 );
 
+-- Create the products table with partitioning by store_id
 CREATE TABLE IF NOT EXISTS products (
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY,                        -- Integer ID will be auto-incremented
+    product_id UUID DEFAULT uuid_generate_v4(),   -- UUID for each product
     store_id INTEGER NOT NULL REFERENCES stores(store_id) ON DELETE CASCADE,
-    sku_id VARCHAR(100) UNIQUE NOT NULL, -- SKU is globally unique
+    sku_id VARCHAR(100) UNIQUE NOT NULL,          -- SKU is globally unique
     product_name VARCHAR(255) NOT NULL,
     price NUMERIC(10, 2) NOT NULL,
     date TIMESTAMP NOT NULL DEFAULT NOW(),
+    created_at TIMESTAMP DEFAULT NOW(),
     timestamp INTEGER NOT NULL DEFAULT EXTRACT(EPOCH FROM NOW())::INTEGER
-);
+) PARTITION BY LIST (store_id);
 
 CREATE INDEX idx_products_store_id ON products(store_id);
 
