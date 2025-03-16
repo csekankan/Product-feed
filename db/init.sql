@@ -37,12 +37,14 @@ CREATE TABLE IF NOT EXISTS task_status (
 );
 
 INSERT INTO task_status (id, status_name)
-VALUES
-    (1, 'pending'),
-    (2, 'processing'),
-    (3, 'completed'),
-    (4, 'failed')
-ON CONFLICT DO NOTHING;
+VALUES(1, 'pending');
+INSERT INTO task_status (id, status_name)
+VALUES    (2, 'processing');
+ INSERT INTO task_status (id, status_name)
+VALUES   (3, 'completed');
+INSERT INTO task_status (id, status_name)
+VALUES    (4, 'failed');
+
 
 -- Create tasks table
 CREATE TABLE IF NOT EXISTS tasks (

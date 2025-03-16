@@ -164,15 +164,18 @@ CREATE TABLE IF NOT EXISTS tasks (
     store_id INTEGER NOT NULL 
 );
 
+-- Create the products table with partitioning by store_id
 CREATE TABLE IF NOT EXISTS products (
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY,                        -- Integer ID will be auto-incremented
+    product_id UUID DEFAULT uuid_generate_v4(),   -- UUID for each product
     store_id INTEGER NOT NULL REFERENCES stores(store_id) ON DELETE CASCADE,
-    sku_id VARCHAR(100) UNIQUE NOT NULL, -- SKU is globally unique
+    sku_id VARCHAR(100) UNIQUE NOT NULL,          -- SKU is globally unique
     product_name VARCHAR(255) NOT NULL,
     price NUMERIC(10, 2) NOT NULL,
     date TIMESTAMP NOT NULL DEFAULT NOW(),
+    created_at TIMESTAMP DEFAULT NOW(),
     timestamp INTEGER NOT NULL DEFAULT EXTRACT(EPOCH FROM NOW())::INTEGER
-);
+) PARTITION BY LIST (store_id);
 
 CREATE INDEX idx_products_store_id ON products(store_id);
 
@@ -189,12 +192,27 @@ CREATE TABLE IF NOT EXISTS error_records (
 To check the **task status**, run the following SQL command:
 ### Insert Default Task Statuses (if table is empty)
 ```sql
+
+As this run uses postgrase docker there may be issue with persistent.PLease verify following table and ensure data present
 INSERT INTO task_status (id, status_name)
 VALUES
     (1, 'pending'),
     (2, 'processing'),
     (3, 'completed'),
     (4, 'failed');
+INSERT INTO stores (store_name, pincode, country) VALUES
+    ('Walmart Supercenter', '10001', 'USA'),
+    ('Target Store', '94103', 'USA'),
+    ('Best Buy Downtown', '90001', 'USA'),
+    ('Costco Wholesale', '60601', 'USA'),
+    ('Amazon Fresh', '77001', 'USA'),
+    ('Whole Foods Market', '30301', 'USA'),
+    ('Kroger Marketplace', '80202', 'USA'),
+    ('Safeway Supermarket', '98101', 'USA'),
+    ('Publix', '33101', 'USA'),
+    ('Aldi', '60602', 'USA'),
+    -- Add remaining stores...
+    ('Kmart', '48226', 'USA');
 ```
 
 ## RabbitMQ Management
