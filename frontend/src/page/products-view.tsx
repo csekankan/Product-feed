@@ -4,11 +4,7 @@ import { InfiniteScroll } from '../components/infinite-scroll';
 import '../css/view-product.css';  // Import the CSS file
 
 export const Products: React.FC = () => {
-  const { handleSearch, min, max, setMax, setMin, reset, hasNext, products, loading, loadProducts, handleProductChange, loadMoreRows, productName, setProductName } = useProducts();
-
-  useEffect(() => {
-    loadProducts();
-  }, []);
+  const { handleSearch, min, max, setMax, setMin, reset, hasNext, products, loading, loadMoreRows, productName, setProductName } = useProducts();
 
   return (
     <div className="products-wrapper">
@@ -44,7 +40,6 @@ export const Products: React.FC = () => {
           products={products}
           loadMoreRows={loadMoreRows}
           hasNext={hasNext}
-          handleProductChange={handleProductChange}
         />
         {loading && <p>Loading...</p>}
       </div>

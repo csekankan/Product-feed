@@ -2,7 +2,7 @@ import { InfiniteLoader, List, AutoSizer } from 'react-virtualized';
 import { ProductRow } from '../components/product-row';
 type HeightWidth={height:number,width:number}
 type Dict={[row:string]:any}
-export const InfiniteScroll=({products,loadMoreRows,hasNext,handleProductChange})=>{
+export const InfiniteScroll=({products,loadMoreRows,hasNext})=>{
     return (<AutoSizer>
           {({ height, width }:HeightWidth) => (
             <InfiniteLoader
@@ -21,7 +21,6 @@ export const InfiniteScroll=({products,loadMoreRows,hasNext,handleProductChange}
                       key={key}
                       product={products[index]}
                       style={style}
-                      onChange={handleProductChange}
                     />
                   )}
                   onRowsRendered={onRowsRendered}

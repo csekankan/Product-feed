@@ -21,4 +21,4 @@ class Task(Base):
     file_name = Column(String(255), nullable=False)
     status_id = Column(Integer, ForeignKey("task_status.id"), default=StatusTypes["PENDING"])
     created_at = Column(TIMESTAMP, server_default=func.now())
-
+    store_id = Column(Integer)  

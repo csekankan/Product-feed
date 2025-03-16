@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from app.db import engine, Base
 from  app.consumer import start_worker
 # FastAPI app instance
 app = FastAPI()

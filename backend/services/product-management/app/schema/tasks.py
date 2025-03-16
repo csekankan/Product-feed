@@ -1,5 +1,4 @@
 from pydantic import BaseModel
-
 class TaskCreateRequest(BaseModel):
     file_name: str
 

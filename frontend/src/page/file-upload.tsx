@@ -34,7 +34,7 @@ const FileUpload: React.FC = () => {
           }
         }
         setStatus(status_id);
-      });
+      }).catch( (e)=>{ clearInterval(poolIntervalId);});
     }, POOLING_DURATION);
 
     return () => clearInterval(poolIntervalId);

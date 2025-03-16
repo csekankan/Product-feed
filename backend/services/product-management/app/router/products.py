@@ -90,7 +90,7 @@ def get_products(
             {
                 "id": p.id,
                 "store_id": p.store_id,
-                "sku": p.sku,
+                "sku": p.sku_id,
                 "product_name": p.product_name,
                 "price": p.price,
                 "date": p.date,

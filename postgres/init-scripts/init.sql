@@ -50,18 +50,18 @@ CREATE TABLE IF NOT EXISTS tasks (
     file_name VARCHAR(255) NOT NULL,
     status_id INTEGER NOT NULL DEFAULT 1 REFERENCES task_status(id) ON DELETE SET NULL,
     created_at TIMESTAMP DEFAULT NOW(),
-    store_id INTEGER NOT NULL 
+    store_id INTEGER NOT NULL REFERENCES stores(store_id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS products (
     id SERIAL PRIMARY KEY,
-    store_id INTEGER NOT NULL REFERENCES stores(store_id) ON DELETE CASCADE,
-    sku_id VARCHAR(100) UNIQUE NOT NULL, -- SKU is globally unique
+    store_id INTEGER NOT NULL,
+    sku_id VARCHAR(100) UNIQUE NOT NULL,
     product_name VARCHAR(255) NOT NULL,
     price NUMERIC(10, 2) NOT NULL,
     date TIMESTAMP NOT NULL DEFAULT NOW(),
     timestamp INTEGER NOT NULL DEFAULT EXTRACT(EPOCH FROM NOW())::INTEGER
-);
+) PARTITION BY LIST (store_id);
 
 CREATE INDEX idx_products_store_id ON products(store_id);
 

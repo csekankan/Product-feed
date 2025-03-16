@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, ForeignKey, TIMESTAMP, func
+from sqlalchemy import Column, Integer, String, ForeignKey, TIMESTAMP, func,UUID
 from sqlalchemy.orm import relationship
 from app.db import Base
 
@@ -22,4 +22,4 @@ class Task(Base):
     file_name = Column(String(255), nullable=False)
     status_id = Column(Integer, ForeignKey("task_status.id"), default=StatusTypes["PENDING"])
     created_at = Column(TIMESTAMP, server_default=func.now())
-
+    store_id = Column(Integer)  
